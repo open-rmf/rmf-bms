@@ -1,0 +1,8 @@
+uint32 state
+
+uint32 NORMAL=0
+uint32 FAULT=1
+uint32 OFFNORMAL=2
+uint32 HIGH_LIMIT=3
+uint32 LOW_LIMIT=4
+uint32 LIFE_SAFETY_ALARM=5

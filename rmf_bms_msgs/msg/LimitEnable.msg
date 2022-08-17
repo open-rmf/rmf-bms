@@ -1,0 +1,2 @@
+bool low_limit_enable
+bool high_limit_enable

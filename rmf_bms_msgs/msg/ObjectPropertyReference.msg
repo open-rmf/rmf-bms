@@ -1,0 +1,3 @@
+ObjectIdentifier object_identifier
+PropertyIdentifier property_identifier
+uint64 property_array_index

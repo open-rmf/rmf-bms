@@ -1,0 +1,5 @@
+uint32 type
+
+uint32 ALARM=0
+uint32 EVENT=1
+uint32 ACK_NOTIFICATION=2
