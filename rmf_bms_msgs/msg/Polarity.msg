@@ -1,0 +1,3 @@
+uint32 value
+uint32 VALUE_NORMAL=0
+uint32 VALUE_REVERSE=1

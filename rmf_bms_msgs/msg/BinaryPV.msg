@@ -1,0 +1,3 @@
+uint32 value
+uint32 VALUE_INACTIVE=0
+uint32 VALUE_ACTIVE=1

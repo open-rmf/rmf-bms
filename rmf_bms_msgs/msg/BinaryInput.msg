@@ -1,26 +1,24 @@
 ObjectIdentifier id
 string name
-uint32 TYPE=1 # ObjectType.ANALOG_OUTPUT
-float32 present_value # Read value of this device
+uint32 TYPE=3 # ObjectType.BINARY_INPUT
+BinaryPV present_value # Read value of this device
 string description # Optional
 string device_type # Optional
 StatusFlags flags
 EventState event_state
 Reliability reliability # Optional
 bool out_of_service
-EngineeringUnits unit
-float32 min_present_value # Optional
-float32 max_present_value # Optional
-float32 resolution # Optional
-PriorityArray priority_array
-float32 relinquish_default
-float32 cov_increment # Optional
+Polarity polarity
+string inactive_text
+string active_text
+builtin_interfaces/Time change_of_state_time
+uint64 change_of_state_count
+builtin_interfaces/Time time_of_state_count_reset
+uint32 elapsed_active_time
+builtin_interfaces/Time time_of_active_time_reset
 uint64 time_delay # Optional
 uint64 notification_class # Optional
-float32 high_limit # Optional
-float32 low_limit # Optional
-float32 deadband # Optional
-LimitEnable limit_enable # Optional
+BinaryPV alarm_value
 EventTransitionBits event_enable # Optional
 EventTransitionBits acked_transitions # Optional
 NotifyType notify_type # Optional
@@ -33,15 +31,9 @@ bool event_algorithm_inhibit # Optional
 uint64 time_delay_normal # Optional
 bool reliability_evaluation_inhibit # Optional
 PropertyIdentifier[] property_list
-float32 interface_value # TODO: Optional, OptionalReal
-uint64 current_command_priority # TODO: OptionalUnsigned
-ValueSource value_source # Optional
-ValueSource[16] value_source_array # Optional
-builtin_interfaces/Time last_command_time
-builtin_interfaces/Time[16] command_time_array
+BinaryPV interface_value # TODO: Optional, OptionalReal
 # AuditLevel audit_level # Optional
 # AuditOperationFlags auditable_operations # Optional
-# AuditOptionalPriorityFilter audit_priority_filter
 NameValue[] tags # Optional
 string profile_location # Optional
 string profile_name # Optional

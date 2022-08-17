@@ -10,3 +10,4 @@ The descriptions of the primary interface messages are given below.
 
 * [AnalogInput](rmf_bms_msgs/msg/AnalogInput.msg): Read the properties of a device that accepts analog values.
 * [AnalogOutput](rmf_bms_msgs/msg/AnalogOutput.msg): Write an analog value to a supported device
+* [BinaryInput](rmf_bms_msgs/msg/BinaryInput.msg): Read the state of a device. Eg. check whether a fan or pump is running or idle
