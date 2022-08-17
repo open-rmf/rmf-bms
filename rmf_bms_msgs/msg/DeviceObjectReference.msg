@@ -1,0 +1,2 @@
+ObjectIdentifier device_identifier
+ObjectIdentifier object_identifier

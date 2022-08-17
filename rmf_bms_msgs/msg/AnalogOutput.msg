@@ -8,11 +8,12 @@ StatusFlags flags
 EventState event_state
 Reliability reliability # Optional
 bool out_of_service
-uint64 update_interval # Optional, hundreths of a second
 EngineeringUnits unit
 float32 min_present_value # Optional
 float32 max_present_value # Optional
 float32 resolution # Optional
+PriorityArray priority_array
+float32 relinquish_default
 float32 cov_increment # Optional
 uint64 time_delay # Optional
 uint64 notification_class # Optional
@@ -33,10 +34,14 @@ uint64 time_delay_normal # Optional
 bool reliability_evaluation_inhibit # Optional
 PropertyIdentifier[] property_list
 float32 interface_value # TODO: Optional, OptionalReal
-float32 fault_high_limit  # Optional
-float32 fault_low_limit # Optional
+uint64 current_command_priority # TODO: OptionalUnsigned
+ValueSource value_source # Optional
+ValueSource[16] value_source_array # Optional
+builtin_interfaces/Time last_command_time
+builtin_interfaces/Time[16] command_time_array
 # AuditLevel audit_level # Optional
 # AuditOperationFlags auditable_operations # Optional
+# AuditOptionalPriorityFilter audit_priority_filter
 NameValue[] tags # Optional
 string profile_location # Optional
 string profile_name # Optional

@@ -12,7 +12,10 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 set(msg_files
+  "msg/Address.msg"
   "msg/AnalogInput.msg"
+  "msg/AnalogOutput.msg"
+  "msg/DeviceObjectReference.msg"
   "msg/EngineeringUnits.msg"
   "msg/EventState.msg"
   "msg/EventTransitionBits.msg"
@@ -22,9 +25,12 @@ set(msg_files
   "msg/ObjectIdentifier.msg"
   "msg/ObjectPropertyReference.msg"
   "msg/ObjectType.msg"
+  "msg/PriorityArray.msg"
+  "msg/PriorityValue.msg"
   "msg/PropertyIdentifier.msg"
   "msg/Reliability.msg"
   "msg/StatusFlags.msg"
+  "msg/ValueSource.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
