@@ -17,6 +17,8 @@ set(msg_files
   "msg/AnalogInput.msg"
   "msg/AnalogOutput.msg"
   "msg/BinaryInput.msg"
+  "msg/BinaryLightingOutput.msg"
+  "msg/BinaryLightingPV.msg"
   "msg/BinaryOutput.msg"
   "msg/BinaryPV.msg"
   "msg/DeviceObjectReference.msg"
