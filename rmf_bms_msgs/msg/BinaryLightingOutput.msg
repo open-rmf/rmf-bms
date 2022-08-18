@@ -1,6 +1,6 @@
 ObjectIdentifier id
 string name
-uint32 TYPE=54 # ObjectType.LIGHTING_OUTPUT
+uint32 TYPE=55 # ObjectType.BINARY_LIGHTING_OUTPUT
 BinaryLightingPV present_value # Read/Write
 string description # Optional
 StatusFlags flags
