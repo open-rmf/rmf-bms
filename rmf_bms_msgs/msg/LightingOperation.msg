@@ -1,0 +1,12 @@
+uint32 value
+uint32 NONE=0
+uint32 FADE_TO=1
+uint32 RAMP_TO=2
+uint32 STEP_UP=3
+uint32 STEP_DOWN=4
+uint32 STEP_ON=5
+uint32 STEP_OFF=6
+uint32 WARN=7
+uint32 WARN_OFF=8
+uint32 WARN_RELINQUISH=9
+uint32 STOP=10

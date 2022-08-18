@@ -1,0 +1,6 @@
+LightingOperation operation
+float32 target_level
+float32 ramp_rate
+float32 step_increment
+uint64 fade_time
+uint64 priority

@@ -13,3 +13,4 @@ The descriptions of the primary interface messages are given below.
 * [BinaryInput.msg](rmf_bms_msgs/msg/BinaryInput.msg): Read the state of a device. Eg. check whether a fan or pump is running or idle.
 * [BinaryOutput.msg](rmf_bms_msgs/msg/BinaryOutput.msg): Write the binary state of a device. Eg. turn on/off a fan or pump.
 * [AccessDoor.msg](rmf_bms_msgs/msg/AccessDoor.msg): Read/Write status of doors with or without access control.
+* [LightingOutput.msg](rmf_bms_msgs/msg/LightingOutput.msg): Read/Write to lighting devices that are analog in nature.

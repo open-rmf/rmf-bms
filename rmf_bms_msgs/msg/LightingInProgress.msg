@@ -1,0 +1,6 @@
+uint32 value
+uint32 IDLE=0
+uint32 FADE_ACTIVE=1
+uint32 RAMP_ACTIVE=2
+uint32 NOT_CONTROLLED=3
+uint32 OTHER=4
