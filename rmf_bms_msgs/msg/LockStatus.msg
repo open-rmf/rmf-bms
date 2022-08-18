@@ -1,0 +1,6 @@
+uint32 value
+uint32 LOCKED=0
+uint32 UNLOCKED=1
+uint32 LOCK_FAULT=2
+uint32 UNUSED=3
+uint32 UNKNOWN=4

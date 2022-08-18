@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 set(msg_files
+  "msg/AccessDoor.msg"
   "msg/Address.msg"
   "msg/AnalogInput.msg"
   "msg/AnalogOutput.msg"
@@ -19,10 +20,16 @@ set(msg_files
   "msg/BinaryOutput.msg"
   "msg/BinaryPV.msg"
   "msg/DeviceObjectReference.msg"
+  "msg/DoorAlarmState.msg"
+  "msg/DoorSecuredStatus.msg"
+  "msg/DoorStatus.msg"
+  "msg/DoorValue.msg"
   "msg/EngineeringUnits.msg"
   "msg/EventState.msg"
   "msg/EventTransitionBits.msg"
   "msg/LimitEnable.msg"
+  "msg/LockStatus.msg"
+  "msg/Maintenance.msg"
   "msg/NameValue.msg"
   "msg/NotifyType.msg"
   "msg/ObjectIdentifier.msg"

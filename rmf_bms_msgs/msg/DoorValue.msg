@@ -1,0 +1,5 @@
+uint32 value
+uint32 LOCK=0
+uint32 UNLOCK=1
+uint32 PULSE_UNLOCK=2
+uint32 EXTENDED_PULSE_UNLOCK=3

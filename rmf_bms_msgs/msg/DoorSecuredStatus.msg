@@ -1,0 +1,4 @@
+uint32 value
+uint32 SECURED=0
+uint32 UNSECURED=1
+uint32 UNKNOWN=2
