@@ -1,0 +1,7 @@
+# request is empty
+
+---
+
+# response
+AlarmSummary[] summaries # summaries of active alarms
+uint64 error_code # error code if request failed

@@ -30,7 +30,7 @@ bool event_detection_enable # Optional
 uint64 notification_class # Optional
 EventTransitionBits event_enable # Optional
 EventTransitionBits acked_transitions # Optional
-bool notify_type # Optional
+NotifyType notify_type # Optional
 builtin_interfaces/Time[3] event_time_stamps # Optional
 string[3] event_message_texts # Optional
 string[3] event_message_texts_config # Optional

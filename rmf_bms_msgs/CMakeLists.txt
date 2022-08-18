@@ -14,6 +14,7 @@ find_package(builtin_interfaces REQUIRED)
 set(msg_files
   "msg/AccessDoor.msg"
   "msg/Address.msg"
+  "msg/AlarmSummary.msg"
   "msg/AnalogInput.msg"
   "msg/AnalogOutput.msg"
   "msg/BinaryInput.msg"
@@ -51,8 +52,13 @@ set(msg_files
   "msg/ValueSource.msg"
 )
 
+set(srv_files
+  "srv/GetAlarmSummary.srv"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES
     builtin_interfaces
 )

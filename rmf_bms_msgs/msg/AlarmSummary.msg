@@ -1,0 +1,3 @@
+ObjectIdentifier id
+EventState alarm_state
+EventTransitionBits acked_transitions
